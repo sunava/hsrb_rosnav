@@ -11,7 +11,7 @@ And from SUTURO 2024.
 - hsr_description
 - hsr_meshes
 
-- To launch AMCL / movebase and map!
+- To launch AMCL,movebase and map!
 
 ```
 roslaunch hsrb_rosnav_config hsrb_nav.launch 
