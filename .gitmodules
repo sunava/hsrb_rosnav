@@ -1,6 +1,6 @@
 [submodule "hsr_description"]
 	path = hsr_description
-	url = git@github.com:code-iai/hsr_description.git
+	url = https://github.com/code-iai/hsr_description.git
 [submodule "hsr_meshes"]
 	path = hsr_meshes
-	url = git@github.com:ToyotaResearchInstitute/hsr_meshes.git
+	url = https://github.com/ToyotaResearchInstitute/hsr_meshes.git
