@@ -1,0 +1,31 @@
+hsrb:
+  realtime_body_controller_gazebo:
+    type: hsr_velocity_controller/HsrVelocityController
+    joints:
+    - arm_flex_joint
+    - arm_lift_joint
+    - arm_roll_joint
+    - wrist_flex_joint
+    - wrist_roll_joint
+    - head_pan_joint
+    - head_tilt_joint
+    p_gains: [0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01]
+    i_gains: [0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05]
+    d_gains: [0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2]
+    feedforward_gains: [1, 1, 1, 1, 1, 1, 1]
+  realtime_body_controller_real:
+    type: hsr_velocity_controller/HsrVelocityController
+    joints:
+      - arm_flex_joint
+      - arm_lift_joint
+      - arm_roll_joint
+      - wrist_flex_joint
+      - wrist_roll_joint
+      - head_pan_joint
+      - head_tilt_joint
+    p_gains: [ 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+    i_gains: [ 0, 0, 0, 0, 0, 0, 0 ]
+    d_gains: [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+    feedforward_gains: [17.2, 10.7, 2.5, 2.4, 25, 5.9, 5.9]
+
+

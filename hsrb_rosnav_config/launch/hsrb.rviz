@@ -6,10 +6,8 @@ Panels:
       Expanded:
         - /Global Options1
         - /Status1
-        - /MarkerArray1
-        - /MarkerArray2
       Splitter Ratio: 0.6426510214805603
-    Tree Height: 1109
+    Tree Height: 713
   - Class: rviz/Selection
     Name: Selection
   - Class: rviz/Tool Properties
@@ -35,6 +33,369 @@ Toolbars:
 Visualization Manager:
   Class: ""
   Displays:
+    - Alpha: 0.5
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        arena:arena:room_center_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        arena_entry_exit:entry_exit:link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        corner:corner:table_center:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        corner:corner:table_front_edge_center:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        corner:corner:table_origin:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        couch_table:couch_table:table_center:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        couch_table:couch_table:table_front_edge_center:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        couch_table:couch_table:table_origin:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        dishwasher_tab:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        iai_kitchen:arena:door_center:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        iai_kitchen:arena:door_handle_inside:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        iai_kitchen:arena:door_handle_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        iai_kitchen:arena:door_handle_outside:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        iai_kitchen:arena:door_hinge:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        iai_kitchen:kitchen:room_center_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kitchen_entry_exit:entry_exit:link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        kitchen_island:kitchen_island:table_center:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kitchen_island:kitchen_island:table_front_edge_center:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        kitchen_island:kitchen_island:table_origin:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        kitchen_main:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        living_room:arena:door_center:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        living_room:arena:door_handle_inside:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        living_room:arena:door_handle_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        living_room:arena:door_handle_outside:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        living_room:arena:door_hinge:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        living_room:living_room:room_center_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        living_room_entry_exit:entry_exit:link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        long_table:l_table:table_center:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        long_table:l_table:table_front_edge_center:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        long_table:l_table:table_origin:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        oven_area:oven_area:table_center:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        oven_area:oven_area:table_front_edge_center:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        oven_area:oven_area:table_origin:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        popcorn_table:p_table:table_center:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        popcorn_table:p_table:table_front_edge_center:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        popcorn_table:p_table:table_origin:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        refrigerator:refrigerator:table_center:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        refrigerator:refrigerator:table_front_edge_center:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        refrigerator:refrigerator:table_origin:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        shelf:shelf:shelf_back:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelf:shelf:shelf_base_center:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        shelf:shelf:shelf_center:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        shelf:shelf:shelf_floor_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelf:shelf:shelf_floor_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelf:shelf:shelf_floor_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelf:shelf:shelf_left_side:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelf:shelf:shelf_origin:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        shelf:shelf:shelf_right_side:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        sink_area_dish_washer_door:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        sink_area_dish_washer_door_handle:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        sink_area_dish_washer_main:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        suturo_couch:couch:place1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        suturo_couch:couch:place2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        suturo_couch:couch:place3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        urdf_main:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        urdf_offset:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        wall_10_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        wall_11_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        wall_12_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        wall_13_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        wall_14_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        wall_15_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        wall_16_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        wall_1_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        wall_2_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        wall_3_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        wall_4_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        wall_5_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        wall_9_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        work_surface_left:work_surface_left:table_center:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        work_surface_left:work_surface_left:table_front_edge_center:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        work_surface_left:work_surface_left:table_origin:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        work_surface_right:work_surface_right:table_center:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        work_surface_right:work_surface_right:table_front_edge_center:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        work_surface_right:work_surface_right:table_origin:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+      Name: KitchenModel
+      Robot Description: kitchen_description
+      TF Prefix: iai_kitchen
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
     - Alpha: 0.5
       Cell Size: 1
       Class: rviz/Grid
@@ -450,8 +811,7 @@ Visualization Manager:
       Marker Topic: /pycram/viz_marker
       Name: MarkerArray
       Namespaces:
-        hsrb: true
-        kitchen: true
+        {}
       Queue Size: 100
       Value: true
   Enabled: true
@@ -482,7 +842,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 7.004199028015137
+      Distance: 6.441042900085449
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -490,25 +850,25 @@ Visualization Manager:
         Value: false
       Field of View: 0.7853981852531433
       Focal Point:
-        X: 2.796206474304199
-        Y: 2.159233570098877
-        Z: 0.3548167943954468
+        X: 2.6863675117492676
+        Y: 5.47976016998291
+        Z: 0.5128567218780518
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.7753981947898865
+      Pitch: 1.015398383140564
       Target Frame: <Fixed Frame>
-      Yaw: 3.294976234436035
+      Yaw: 0.05679047107696533
     Saved: ~
 Window Geometry:
   Displays:
     collapsed: false
-  Height: 1444
+  Height: 1048
   Hide Left Dock: false
   Hide Right Dock: false
-  QMainWindow State: 000000ff00000000fd000000040000000000000240000004f1fc020000000efb0000001200530065006c0065006300740069006f006e00000001e10000009b0000006e00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001c20000017000000240000000abfb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c0061007900730100000047000004f1000000f100fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb0000001c004800650061006400430061006d006500720061004c006500660074000000016a0000005d0000000000000000fb00000014005800740069006f006e004400650070007400680000000192000000690000000000000000fb0000001e004800650061006400430061006d0065007200610052006900670068007400000001c5000000770000000000000000fb00000014005800740069006f006e0049006d00610067006500000002070000008c0000000000000000fb0000001400480061006e006400430061006d0065007200610000000263000000a60000000000000000fb00000020004800650061006400430061006d00650072006100430065006e00740065007200000002e8000000ce0000000000000000000000010000012f0000038bfc0200000008fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb00000014005800740069006f006e00440065007000740068000000002b000000950000000000000000fb00000014005800740069006f006e0049006d006100670065000000002b000000e10000000000000000fc000000c8000001210000000000fffffffa000000000100000002fb0000001400480061006e006400430061006d0065007200610000000000ffffffff0000000000000000fb00000020004800650061006400430061006d00650072006100430065006e007400650072000000057e0000012f0000000000000000fb0000001c004800650061006400430061006d006500720061004c006500660074000000002b000001c00000000000000000fb0000001e004800650061006400430061006d00650072006100520069006700680074000000002b0000038b0000000000000000fb0000000a0056006900650077007300000002e7000000f8000000c200fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e1000001970000000300000a0000000044fc0100000002fb0000000800540069006d0065010000000000000a000000045a00fffffffb0000000800540069006d00650100000000000004500000000000000000000007b9000004f100000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd0000000400000000000001e200000365fc020000000efb0000001200530065006c0065006300740069006f006e00000001e10000009b0000006e00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001c20000017000000240000000abfb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073010000004700000365000000f100fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb0000001c004800650061006400430061006d006500720061004c006500660074000000016a0000005d0000000000000000fb00000014005800740069006f006e004400650070007400680000000192000000690000000000000000fb0000001e004800650061006400430061006d0065007200610052006900670068007400000001c5000000770000000000000000fb00000014005800740069006f006e0049006d00610067006500000002070000008c0000000000000000fb0000001400480061006e006400430061006d0065007200610000000263000000a60000000000000000fb00000020004800650061006400430061006d00650072006100430065006e00740065007200000002e8000000ce0000000000000000000000010000012f0000038bfc0200000008fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb00000014005800740069006f006e00440065007000740068000000002b000000950000000000000000fb00000014005800740069006f006e0049006d006100670065000000002b000000e10000000000000000fc000000c8000001210000000000fffffffa000000000100000002fb0000001400480061006e006400430061006d0065007200610000000000ffffffff0000000000000000fb00000020004800650061006400430061006d00650072006100430065006e007400650072000000057e0000012f0000000000000000fb0000001c004800650061006400430061006d006500720061004c006500660074000000002b000001c00000000000000000fb0000001e004800650061006400430061006d00650072006100520069006700680074000000002b0000038b0000000000000000fb0000000a0056006900650077007300000002e7000000f8000000c200fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e100000197000000030000078000000044fc0100000002fb0000000800540069006d00650100000000000007800000045a00fffffffb0000000800540069006d00650100000000000004500000000000000000000005970000036500000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Selection:
     collapsed: false
   Time:
@@ -517,6 +877,6 @@ Window Geometry:
     collapsed: false
   Views:
     collapsed: false
-  Width: 2560
+  Width: 1920
   X: 0
-  Y: 28
+  Y: 0
