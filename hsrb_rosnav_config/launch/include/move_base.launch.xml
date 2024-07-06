@@ -26,6 +26,33 @@ CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
 -->
+<!--<launch>-->
+<!--  <arg name="namespace" default="hsrb" />-->
+<!--  <arg name="personal_name" default="" />-->
+<!--  <arg name="sim" default="false" />-->
+<!--  <arg name="use_head_rgbd_sensor" default="true" />-->
+<!--  <arg name="use_rear_scan" default="false" />-->
+
+<!--  <remap from="$(arg namespace)/camera/depth_registered/points" to="$(arg namespace)/head_rgbd_sensor/depth_registered/rectified_pointsbase_b_bumper_link"/>-->
+<!--  &lt;!&ndash; ##### Navigation settings ##### &ndash;&gt;-->
+<!--  &lt;!&ndash; map file setting (can be overriden) &ndash;&gt;-->
+<!--  <arg name="map" default="/home/hsr-user/robocup_ws/src/hsrb_common_launch/launch/include/map/map.yaml" />-->
+
+<!--  <arg unless="$(eval personal_name == '')" name="robot_tf_name" value="$(arg personal_name)/base_footprint"/>-->
+<!--  <arg     if="$(eval personal_name == '')" name="robot_tf_name" value="base_footprint"/>-->
+
+<!--  <arg unless="$(eval personal_name == '')" name="odom_tf_name" value="$(arg personal_name)/odom"/>-->
+<!--  <arg     if="$(eval personal_name == '')" name="odom_tf_name" value="odom"/>-->
+
+<!--  <arg name="path_planner_name" default="base_path_planner" />-->
+<!--  <arg name="path_follower_name" default="omni_path_follower" />-->
+<!--  <arg name="navigation_log_recorder_name" default="navigation_log_recorder" />-->
+<!--  <arg name="navigation_log_record_service_name" default="record" />-->
+
+<!--  &lt;!&ndash; tf name parameter &ndash;&gt;-->
+<!--  <group ns="/$(arg personal_name)">-->
+<!--    <param name="robot_tf_name" value="$(arg robot_tf_name)"/>-->
+<!--    <param name="odom_tf_name" value="$(arg odom_tf_name)"/>-->
 <launch>
   <!-- set topics -->
   <arg name="map_topic" default="map" />
@@ -35,15 +62,15 @@ POSSIBILITY OF SUCH DAMAGE.
   <!-- planners, costmaps, etc -->
 
   <node pkg="move_base" type="move_base" name="move_base" respawn="true" output="screen">
-  <rosparam file="$(find hsrb_rosnav_config)/config/costmap_common.yaml" command="load" ns="global_costmap" />
-  <rosparam file="$(find hsrb_rosnav_config)/config/costmap_common.yaml" command="load" ns="local_costmap" />
-  <rosparam file="$(find hsrb_rosnav_config)/config/costmap_local.yaml" command="load" ns="local_costmap" />
-  <rosparam file="$(find hsrb_rosnav_config)/config/costmap_global.yaml" command="load" ns="global_costmap" />
+<!--  <rosparam file="$(find hsrb_rosnav_config)/config/costmap_common.yaml" command="load" ns="global_costmap" />-->
+<!--  <rosparam file="$(find hsrb_rosnav_config)/config/costmap_common.yaml" command="load" ns="local_costmap" />-->
+<!--  <rosparam file="$(find hsrb_rosnav_config)/config/costmap_local.yaml" command="load" ns="local_costmap" />-->
+<!--  <rosparam file="$(find hsrb_rosnav_config)/config/costmap_global.yaml" command="load" ns="global_costmap" />-->
   <rosparam file="$(find hsrb_rosnav_config)/config/move_base.yaml" command="load" />
   <remap from="cmd_vel" to="$(arg cmd_vel_topic)"/>
   <remap from="odom" to="$(arg odom_topic)"/>
   <remap from="map" to="$(arg map_topic)" />
-  <param name="recovery_behavior_enabled" value="false"/>
+<!--  <param name="recovery_behavior_enabled" value="false"/>-->
   </node>
 
 
