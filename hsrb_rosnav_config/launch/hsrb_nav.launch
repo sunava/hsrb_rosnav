@@ -27,8 +27,8 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
 -->
 <launch>
-    <arg name="map_name" default="map.yaml" />
-	<node name="map_server" pkg="map_server" type="map_server" args="$(find hsr_navigation)/map/$(arg map_name)" />
+    <arg name="map_name" default="vanessa_robocanes.yaml" />
+	<node name="map_server" pkg="map_server" type="map_server" args="$(find hsrb:hsrb_rosnav_config)/map/$(arg map_name)" />
 <!--   <arg name="map_file" default="$(find hsrb_mapping)/map/gmapping/map.yaml"/> -->
   <arg name="localization_type" default="amcl"/>
 
