@@ -28,14 +28,16 @@ POSSIBILITY OF SUCH DAMAGE.
 -->
 <launch>
 
-  <arg name="scan_topic"     default="/hsrb/base_scan" />
   <arg name="map_topic"      default="map" />
   <arg name="use_map_topic"  default="true" />
 
   <node pkg="amcl" type="amcl" name="amcl">
-    <remap from="scan" to="$(arg scan_topic)" />
     <remap from="map" to="$(arg map_topic)" />
     <param name="use_map_topic"  value="$(arg use_map_topic)" />
+    <param name="odom_frame_id" value="odom"/>
+	<param name="base_frame_id" value="base_footprint"/>
+	<remap from="scan" to="hsrb/base_scan"/>
+	<remap from="initialpose" to="laser_2d_correct_pose"/>
     <rosparam file="$(find hsrb_rosnav_config)/config/amcl.yaml" command="load" />
   </node>
 
